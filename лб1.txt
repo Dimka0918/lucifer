@@ -1,0 +1,242 @@
+{\rtf1\ansi\ansicpg1251\deff0\nouicompat\deflang1049{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset204 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 Microsoft Windows [Version 10.0.19044.1526]\par
+(c) \f1\lang1049\'ca\'ee\'f0\'ef\'ee\'f0\'e0\'f6\'e8\'ff \'cc\'e0\'e9\'ea\'f0\'ee\'f1\'ee\'f4\'f2 (Microsoft Corporation). \'c2\'f1\'e5 \'ef\'f0\'e0\'e2\'e0 \'e7\'e0\'f9\'e8\'f9\'e5\'ed\'fb.\par
+\par
+C:\\Windows\\system32>cd C:/\'d5\'e0\'ec\'e8\'e4\'ee\'e2\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git config --global user.name "dimka0918"\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git config --global user.email dhamidov06@gmail.com\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git init\par
+Initialized empty Git repository in C:/\'d5\'e0\'ec\'e8\'e4\'ee\'e2/.git/\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git status\par
+On branch master\par
+\par
+No commits yet\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        test.txt\par
+\par
+nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add test.txt\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add .\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git status\par
+On branch master\par
+\par
+No commits yet\par
+\par
+Changes to be committed:\par
+  (use "git rm --cached <file>..." to unstage)\par
+        new file:   test.txt\par
+\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git commit -m "first commit"\par
+[master (root-commit) f067ae3] first commit\par
+ 1 file changed, 0 insertions(+), 0 deletions(-)\par
+ create mode 100644 test.txt\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git status\par
+On branch master\par
+nothing to commit, working tree clean\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git remote add origin {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git remote -v\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22  (fetch)\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22  (push)\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git pull origin master\par
+fatal: unable to access '{{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer/ }}{\fldrslt{https://github.com/Dimka0918/lucifer/\ul0\cf0}}}}\f1\fs22 ': SSL certificate problem: self signed certificate in certificate chain\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git remote -v\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22  (fetch)\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22  (push)\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git pull origin master --allow-unrelated-histories\par
+remote: Enumerating objects: 3, done.\par
+remote: Counting objects: 100% (3/3), done.\par
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\par
+Unpacking objects: 100% (3/3), 590 bytes | 5.00 KiB/s, done.\par
+From {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+ * branch            master     -> FETCH_HEAD\par
+ * [new branch]      master     -> origin/master\par
+Merge made by the 'ort' strategy.\par
+ README.md | 1 +\par
+ 1 file changed, 1 insertion(+)\par
+ create mode 100644 README.md\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git remote -v\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22  (fetch)\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22  (push)\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git pull origin master\par
+From {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+ * branch            master     -> FETCH_HEAD\par
+Already up to date.\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git push origin master\par
+info: please complete authentication in your browser...\par
+Enumerating objects: 6, done.\par
+Counting objects: 100% (6/6), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (4/4), done.\par
+Writing objects: 100% (5/5), 732 bytes | 732.00 KiB/s, done.\par
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+   725862e..157ffce  master -> master\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git log\par
+commit 157ffcedbeaf780d0a8f8c160b4da9cdf879f43f (HEAD -> master, origin/master)\par
+Merge: f067ae3 725862e\par
+Author: dimka0918 <dhamidov06@gmail.com>\par
+Date:   Sat Feb 19 18:07:25 2022 +0300\par
+\par
+    Merge branch 'master' of {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+\par
+commit f067ae3ca4095f8cc84c43cebbfa84dd95345b77\par
+Author: dimka0918 <dhamidov06@gmail.com>\par
+Date:   Sat Feb 19 18:01:55 2022 +0300\par
+\par
+    first commit\par
+\par
+commit 725862e72e3746e21d4ecc96d7dc65575ee0b03e\par
+Author: Dimka0918 <100030163+Dimka0918@users.noreply.github.com>\par
+Date:   Sat Feb 19 17:16:50 2022 +0300\par
+\par
+    Initial commit\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git branch\par
+* master\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git branch second\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git branch\par
+* master\par
+  second\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git checkout second\par
+Switched to branch 'second'\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git push origin second\par
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0\par
+remote:\par
+remote: Create a pull request for 'second' on GitHub by visiting:\par
+remote:      {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer/pull/new/second }}{\fldrslt{https://github.com/Dimka0918/lucifer/pull/new/second\ul0\cf0}}}}\f1\fs22\par
+remote:\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+ * [new branch]      second -> second\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git checkout master\par
+Switched to branch 'master'\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git merge second\par
+Already up to date.\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git branch -d second\par
+Deleted branch second (was 157ffce).\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git merge newdev\par
+merge: newdev - not something we can merge\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git branch newdev\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>add Akparovich\par
+"add" \'ed\'e5 \'ff\'e2\'eb\'ff\'e5\'f2\'f1\'ff \'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'e9 \'e8\'eb\'e8 \'e2\'ed\'e5\'f8\'ed\'e5\'e9\par
+\'ea\'ee\'ec\'e0\'ed\'e4\'ee\'e9, \'e8\'f1\'ef\'ee\'eb\'ed\'ff\'e5\'ec\'ee\'e9 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'ee\'e9 \'e8\'eb\'e8 \'ef\'e0\'ea\'e5\'f2\'ed\'fb\'ec \'f4\'e0\'e9\'eb\'ee\'ec.\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>add Akparovich.txt\par
+"add" \'ed\'e5 \'ff\'e2\'eb\'ff\'e5\'f2\'f1\'ff \'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'e9 \'e8\'eb\'e8 \'e2\'ed\'e5\'f8\'ed\'e5\'e9\par
+\'ea\'ee\'ec\'e0\'ed\'e4\'ee\'e9, \'e8\'f1\'ef\'ee\'eb\'ed\'ff\'e5\'ec\'ee\'e9 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'ee\'e9 \'e8\'eb\'e8 \'ef\'e0\'ea\'e5\'f2\'ed\'fb\'ec \'f4\'e0\'e9\'eb\'ee\'ec.\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add Akparovich.txt\par
+fatal: pathspec 'Akparovich.txt' did not match any files\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add Akparovich\par
+fatal: pathspec 'Akparovich' did not match any files\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add Akparovich.txt\par
+fatal: pathspec 'Akparovich.txt' did not match any files\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add test1.txt\par
+fatal: pathspec 'test1.txt' did not match any files\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git ckeckout newdev\par
+git: 'ckeckout' is not a git command. See 'git --help'.\par
+\par
+The most similar command is\par
+        checkout\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git checkout newdev\par
+Switched to branch 'newdev'\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add test1.txt\par
+fatal: pathspec 'test1.txt' did not match any files\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git status\par
+On branch newdev\par
+nothing to commit, working tree clean\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add test1.txt\par
+fatal: pathspec 'test1.txt' did not match any files\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>GIT MERGE NEWDEV\par
+fatal: cannot handle MERGE as a builtin\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git push origin newdev\par
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0\par
+remote:\par
+remote: Create a pull request for 'newdev' on GitHub by visiting:\par
+remote:      {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer/pull/new/newdev }}{\fldrslt{https://github.com/Dimka0918/lucifer/pull/new/newdev\ul0\cf0}}}}\f1\fs22\par
+remote:\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/Dimka0918/lucifer }}{\fldrslt{https://github.com/Dimka0918/lucifer\ul0\cf0}}}}\f1\fs22\par
+ * [new branch]      newdev -> newdev\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git commit -m "first commit"\par
+On branch newdev\par
+Changes not staged for commit:\par
+  (use "git add <file>..." to update what will be committed)\par
+  (use "git restore <file>..." to discard changes in working directory)\par
+        modified:   test.txt\par
+\par
+no changes added to commit (use "git add" and/or "git commit -a")\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git push origin newdev\par
+Everything up-to-date\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git push origin newdev\par
+Everything up-to-date\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git status\par
+On branch newdev\par
+Changes not staged for commit:\par
+  (use "git add/rm <file>..." to update what will be committed)\par
+  (use "git restore <file>..." to discard changes in working directory)\par
+        deleted:    test.txt\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+        test1.txt\par
+\par
+no changes added to commit (use "git add" and/or "git commit -a")\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add test1.txt\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git add .\par
+\par
+C:\\\'d5\'e0\'ec\'e8\'e4\'ee\'e2>git status\par
+On branch newdev\par
+Changes to be committed:\par
+  (use "git restore --staged <file>..." to unstage)\par
+        deleted:    test.txt\par
+        new file:   test1.txt\par
+\f0\lang9\par
+}
+ 
